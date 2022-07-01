@@ -121,4 +121,5 @@ button:hover {
     color: #f1f5f8;
     padding: 1rem;
     border-radius: 10px;
+    font-family: var(--barlow);
 }
