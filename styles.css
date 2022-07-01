@@ -84,6 +84,7 @@ main {
 
 button {
     padding: 1rem 2rem;
+    margin: 1rem;
     font-size: 1rem;
     font-family: var(--barlow);
     font-weight: 600;
@@ -96,4 +97,28 @@ button:hover {
     background-color: #000;
     color: #fff;
     transition-duration: .5s;
+}
+
+.palette {
+    padding-top: 1rem;
+    height: 90%;
+}
+
+.row-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 105%;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column span {
+    background-color: #000;
+    color: #f1f5f8;
+    padding: 1rem;
+    border-radius: 10px;
 }
